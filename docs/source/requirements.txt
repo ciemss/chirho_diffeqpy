@@ -6,6 +6,5 @@
 #  in a way that pulls from this requirements.txt file.
 chirho[dynamical] @ git+https://github.com/BasisResearch/chirho.git@0f5dae6
 diffeqpy==2.5.3
-#diffeqpy==2.4.1
 juliatorch @ git+https://github.com/SciML/juliatorch.git@5f79d3b
 deepdiff==7.0.1
