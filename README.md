@@ -17,6 +17,12 @@ solver_instance = DiffEqPy(reltol=1e-6, abstol=1e-8, alg=de.Tsit5())
 
 ## Installation
 
+If you do not have Julia installed, then install 1.10 using JuliaUp.
+
+`curl -fsSL https://install.julialang.org | sh`
+
+Select 'Default Configuration' when prompted. One Julia is installed, follow installation for chirho_diffeqpy:
+
 `pip install git+https://github.com/BasisResearch/chirho_diffeqpy.git`
 
 Note that on the first import of the package, a large number of julia packages will be
