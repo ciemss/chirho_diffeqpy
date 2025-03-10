@@ -23,7 +23,10 @@ If you do not have Julia installed, then install 1.10 using JuliaUp.
 
 Select 'Default Configuration' when prompted. One Julia is installed, follow installation for chirho_diffeqpy:
 
-`pip install git+https://github.com/BasisResearch/chirho_diffeqpy.git`
+```python
+pip install uv
+uv pip install git+https://github.com/BasisResearch/chirho_diffeqpy.git
+```
 
 Note that on the first import of the package, a large number of julia packages will be
 installed and precompiled in a shared environment called "diffeqpy". This can take some time (up to 30 minutes).
